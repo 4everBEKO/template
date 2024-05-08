@@ -32,9 +32,9 @@ body {
 }
 
 .header {
+    position: absolute;
     width: 100%;
     max-height: 30px;
-    position: absolute;
     top: 0;
     display: flex;
     align-items: center;
@@ -44,6 +44,7 @@ body {
 }
 
 .header h3 {
+    padding-left: 100%;
     margin-top: 2px;
     margin-bottom: 0;
     font-size: 16px;
@@ -55,7 +56,7 @@ body {
     white-space: nowrap;
     padding: 0 10px;
     letter-spacing: 3px;
-    animation: move-rtl 3000ms backwards infinite;
+    animation: move-rtl 5s linear infinite;
 }
 
 .header h3::after {
