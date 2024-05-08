@@ -55,7 +55,7 @@ body {
     white-space: nowrap;
     padding: 0 10px;
     letter-spacing: 3px;
-    animation: move-rtl 2500ms linear infinite;
+    animation: move-rtl 3000ms backwards infinite;
 }
 
 .header h3::after {
