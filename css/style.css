@@ -317,8 +317,8 @@ body {
     }
 
     .img {
-        width: 126px;
-        height: 126px;
+        width: 118px;
+        height: 118px;
         object-fit: cover;
     }
 
@@ -349,7 +349,7 @@ body {
     }
 
     .info-text {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .icon {
