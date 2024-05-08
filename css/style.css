@@ -58,7 +58,7 @@ body {
     white-space: nowrap;
     padding: 0 10px;
     letter-spacing: 3px;
-    animation: move-rtl 5s linear infinite;
+    animation: move-rtl 15s linear infinite;
 }
 
 .header h3::after {
@@ -72,7 +72,7 @@ body {
         transform: translate3d(0, 0, 0); 
     }
     100% {
-        transform: translate3d(-100%, 0, 0); 
+        transform: translate3d(-200%, 0, 0); 
     }
 }
 
